@@ -1,1 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bolivia Fitness - Suplementos deportivos de alta calidad para potenciar tu rendimiento">
+    <meta name="keywords" content="suplementos, proteína, creatina, fitness, Bolivia">
+    <title>Bolivia Fitness - Potencia tu Rendimiento</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <div class="nav-logo">
+                <img src="assets/images/simbolo_negro.png" alt="Bolivia Fitness Logo" class="logo-icon">
+                <span class="logo-text">BOLIVIA FITNESS</span>
+            </div>
 
+            <!-- Menu Desktop -->
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#productos" class="nav-link">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#nosotros" class="nav-link">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#beneficios" class="nav-link">Beneficios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">POTENCIA TU</span>
+                    <span class="title-line highlight">RENDIMIENTO</span>
+                    <span class="title-line">AL MÁXIMO</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Suplementos deportivos de alta calidad para alcanzar tus objetivos fitness
+                </p>
+                <div class="hero-buttons">
+                    <a href="#productos" class="btn btn-primary">
+                        <span>Ver Productos</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contacto" class="btn btn-secondary">
+                        <span>Comprar Ahora</span>
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ========== PRODUCTOS SECTION ========== -->
+    <section class="productos" id="productos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-accent">NUESTROS</span> PRODUCTOS
+                </h2>
+                <p class="section-subtitle">
+                    Suplementos de alta calidad para cada objetivo
+                </p>
+            </div>
+
+            <div class="productos-grid">
+                <!-- Producto 1: Proteína -->
+                <div class="producto-card" data-aos="fade-up">
+                    <div class="card-image">
+                        <i class="fas fa-dumbbell card-icon"></i>
+                        <div class="card-badge">Popular</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Proteína Whey</h3>
+                        <p class="card-description">
+                            Proteína de suero de alta pureza para construcción muscular y recuperación óptima
+                        </p>
+                        <div class="card-benefits">
+                            <span><i class="fas fa-check"></i> 25g proteína</span>
+                            <span><i class="fas fa-check"></i> Rápida absorción</span>
+                        </div>
+                        <a href="#contacto" class="btn btn-card">
+                            Ver más <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Producto 2: Creatina -->
+                <div class="producto-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-image">
+                        <i class="fas fa-bolt card-icon"></i>
+                        <div class="card-badge">Top Ventas</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Creatina Monohidrato</h3>
+                        <p class="card-description">
+                            Incrementa fuerza, potencia y masa muscular con la forma más estudiada de creatina
+                        </p>
+                        <div class="card-benefits">
+                            <span><i class="fas fa-check"></i> 100% pura</span>
+                            <span><i class="fas fa-check"></i> Micronizada</span>
+                        </div>
+                        <a href="#contacto" class="btn btn-card">
+                            Ver más <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Producto 3: Pre-entreno -->
+                <div class="producto-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-image">
+                        <i class="fas fa-fire card-icon"></i>
+                        <div class="card-badge">Energía</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Pre-Entreno</h3>
+                        <p class="card-description">
+                            Fórmula avanzada para energía explosiva, enfoque mental y rendimiento máximo
+                        </p>
+                        <div class="card-benefits">
+                            <span><i class="fas fa-check"></i> Energía intensa</span>
+                            <span><i class="fas fa-check"></i> Concentración</span>
+                        </div>
+                        <a href="#contacto" class="btn btn-card">
+                            Ver más <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Producto 4: Vitaminas -->
+                <div class="producto-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-image">
+                        <i class="fas fa-leaf card-icon"></i>
+                        <div class="card-badge">Salud</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Multivitamínico</h3>
+                        <p class="card-description">
+                            Complejo vitamínico completo para apoyo inmunológico y bienestar general
+                        </p>
+                        <div class="card-benefits">
+                            <span><i class="fas fa-check"></i> 25+ nutrientes</span>
+                            <span><i class="fas fa-check"></i> Sistema inmune</span>
+                        </div>
+                        <a href="#contacto" class="btn btn-card">
+                            Ver más <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== BENEFICIOS SECTION ========== -->
+    <section class="beneficios" id="beneficios">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-accent">¿POR QUÉ</span> ELEGIRNOS?
+                </h2>
+                <p class="section-subtitle">
+                    Comprometidos con tu progreso y resultados
+                </p>
+            </div>
+
+            <div class="beneficios-grid">
+                <!-- Beneficio 1 -->
+                <div class="beneficio-card" data-aos="zoom-in">
+                    <div class="beneficio-icon">
+                        <i class="fas fa-muscle"></i>
+                    </div>
+                    <h3 class="beneficio-title">Aumenta Masa Muscular</h3>
+                    <p class="beneficio-description">
+                        Fórmulas científicamente diseñadas para maximizar la síntesis proteica y el crecimiento muscular
+                    </p>
+                </div>
+
+                <!-- Beneficio 2 -->
+                <div class="beneficio-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="beneficio-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="beneficio-title">Mejora el Rendimiento</h3>
+                    <p class="beneficio-description">
+                        Incrementa tu fuerza, resistencia y potencia para entrenamientos más intensos y efectivos
+                    </p>
+                </div>
+
+                <!-- Beneficio 3 -->
+                <div class="beneficio-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="beneficio-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 class="beneficio-title">Recuperación Rápida</h3>
+                    <p class="beneficio-description">
+                        Acelera la recuperación muscular y reduce el tiempo de descanso entre entrenamientos
+                    </p>
+                </div>
+
+                <!-- Beneficio 4 -->
+                <div class="beneficio-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="beneficio-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="beneficio-title">Calidad Garantizada</h3>
+                    <p class="beneficio-description">
+                        Productos certificados, probados y con los más altos estándares de pureza y eficacia
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== NOSOTROS SECTION ========== -->
+    <section class="nosotros" id="nosotros">
+        <div class="container">
+            <div class="nosotros-content">
+                <div class="nosotros-image" data-aos="fade-right">
+                    <div class="image-placeholder">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                </div>
+                <div class="nosotros-text" data-aos="fade-left">
+                    <h2 class="section-title">
+                        <span class="title-accent">SOBRE</span> NOSOTROS
+                    </h2>
+                    <p class="nosotros-description">
+                        En <strong>Bolivia Fitness</strong>, nuestra misión es proporcionarte los suplementos deportivos de más alta calidad para que alcances tus metas fitness y superes tus límites.
+                    </p>
+                    <p class="nosotros-description">
+                        Nos comprometemos con la excelencia, ofreciendo productos respaldados por la ciencia y formulados específicamente para atletas y personas activas que buscan resultados reales y duraderos.
+                    </p>
+                    <div class="nosotros-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Clientes Satisfechos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Calidad Certificada</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Soporte</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA SECTION ========== -->
+    <section class="cta" id="contacto">
+        <div class="cta-overlay"></div>
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2 class="cta-title">
+                    ¿LISTO PARA TRANSFORMAR TU CUERPO?
+                </h2>
+                <p class="cta-subtitle">
+                    Únete a cientos de atletas que ya confían en Bolivia Fitness
+                </p>
+                <div class="cta-buttons">
+                    <a href="#productos" class="btn btn-primary btn-large">
+                        <span>Empieza Hoy</span>
+                        <i class="fas fa-dumbbell"></i>
+                    </a>
+                    <a href="https://wa.me/59170000000" class="btn btn-whatsapp btn-large" target="_blank">
+                        <span>Contáctanos</span>
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Logo y descripción -->
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/images/simbolo_negro.png" alt="Bolivia Fitness" class="footer-logo-img">
+                        <span>BOLIVIA FITNESS</span>
+                    </div>
+                    <p class="footer-description">
+                        Suplementos deportivos de alta calidad para potenciar tu rendimiento al máximo.
+                    </p>
+                </div>
+
+                <!-- Enlaces rápidos -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#beneficios">Beneficios</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contacto -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Contacto</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>La Paz, Bolivia</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+591 7000 0000</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>info@boliviafitness.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Redes sociales -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://wa.me/59170000000" class="social-link" aria-label="WhatsApp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bolivia Fitness. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/59170000000" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Botón volver arriba -->
+    <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
